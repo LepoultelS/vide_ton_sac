@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(
                 'Tristesse',
@@ -33,10 +34,10 @@ class MyApp extends StatelessWidget {
                     "passé trois heures à le préparer, tout ça pour rien..",
                     style: TextStyle(
                       color: white,
-                      fontSize: 18,
+                      fontSize: 24,
                     ),
                   ),
-                  margin: const EdgeInsets.only(top: 5.0, bottom: 50.0),
+                  margin: const EdgeInsets.only(top: 5.0, bottom: 100.0),
                   padding: const EdgeInsets.only(
                     left: 10.0,
                     right: 10.0,
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
                     bottom: 15.0,
                   ),
                   width: 350,
-                  height: 100,
+                  height: 150,
                   decoration: BoxDecoration(
                       color: minth,
                       borderRadius: BorderRadius.only(
@@ -70,7 +71,7 @@ class MyApp extends StatelessWidget {
                     "mon RDV.",
                     style: TextStyle(
                       color: white,
-                      fontSize: 18,
+                      fontSize: 24,
                     ),
                   ),
                   margin: const EdgeInsets.only(top: 5.0, bottom: 50.0),
@@ -81,7 +82,7 @@ class MyApp extends StatelessWidget {
                     bottom: 15.0,
                   ),
                   width: 350,
-                  height: 100,
+                  height: 150,
                   decoration: BoxDecoration(
                       color: Colors.red,
                       borderRadius: BorderRadius.only(
