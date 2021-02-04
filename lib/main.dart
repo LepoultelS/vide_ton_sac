@@ -135,6 +135,7 @@ class Home extends StatelessWidget {
 
 class Sadness extends StatelessWidget {
   final _formKeySad = GlobalKey<FormState>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -194,15 +195,15 @@ class Anger extends StatelessWidget {
           ),
         ),
         TextFormField(
-            key: _formKeyAng,
-            decoration: const InputDecoration(
-              border: OutlineInputBorder(
-                borderRadius: const BorderRadius.all(Radius.circular(20.0)),
-              ),
+          key: _formKeyAng,
+          decoration: const InputDecoration(
+            border: OutlineInputBorder(
+              borderRadius: const BorderRadius.all(Radius.circular(20.0)),
             ),
-            style: TextStyle(
-              fontSize: 16,
-            ),
+          ),
+          style: TextStyle(
+            fontSize: 16,
+          ),
         ),
         ElevatedButton(
           onPressed: () {
