@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
                       fontSize: 18,
                     ),
                   ),
-                  margin: const EdgeInsets.only(top: 5.0,bottom: 50.0),
+                  margin: const EdgeInsets.only(top: 5.0, bottom: 50.0),
                   padding: const EdgeInsets.only(
                     left: 10.0,
                     right: 10.0,
@@ -46,14 +46,13 @@ class MyApp extends StatelessWidget {
                   width: 350,
                   height: 100,
                   decoration: BoxDecoration(
-                    color: minth,
-                    borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(20.0),
-                      topRight: Radius.circular(20.0),
-                      bottomLeft: Radius.circular(20.0),
-                      bottomRight: Radius.circular(20.0),
-                    )
-                  ),
+                      color: minth,
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(20.0),
+                        topRight: Radius.circular(20.0),
+                        bottomLeft: Radius.circular(20.0),
+                        bottomRight: Radius.circular(20.0),
+                      )),
                 ),
               ),
               Text(
@@ -74,7 +73,7 @@ class MyApp extends StatelessWidget {
                       fontSize: 18,
                     ),
                   ),
-                  margin: const EdgeInsets.only(top: 5.0,bottom: 50.0),
+                  margin: const EdgeInsets.only(top: 5.0, bottom: 50.0),
                   padding: const EdgeInsets.only(
                     left: 10.0,
                     right: 10.0,
@@ -90,8 +89,7 @@ class MyApp extends StatelessWidget {
                         topRight: Radius.circular(20.0),
                         bottomLeft: Radius.circular(20.0),
                         bottomRight: Radius.circular(20.0),
-                      )
-                  ),
+                      )),
                 ),
               ),
             ],
